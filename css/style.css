@@ -10,6 +10,7 @@ body {
 }
 
 body {
+    user-select: none;
     font-family: Circular Std Book;
 }
 
@@ -532,4 +533,105 @@ input[type="email"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.icon-box-7 {
+    margin-right: 20px;
+}
+
+.icon-box-7 img {
+    width: 30px;
+    height: 30px;
+}
+
+.s7-list-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.s7-item-2 {
+    padding: 10px;
+    width: 45%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.h4 {
+    color: #fff;
+}
+
+.text-box-7 .item-text {
+    color: rgb(206, 197, 197);
+}
+
+.s7-list-2 {
+    margin: 50px auto;
+}
+
+.s8-h2 {
+    font-size: 50px;
+}
+
+.s8-p {
+    color: rgb(105, 101, 101);
+}
+
+.s8 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-8 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #c3c3c4;
+}
+
+footer .nav {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-list {
+    display: flex;
+    margin-left: 200px;
+}
+
+.footer-link,
+.footer-item a {
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #000;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Omega-heading {
+    color: white !important;
+}
+
+.bigger {
+    font-size: 21px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
