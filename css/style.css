@@ -363,3 +363,83 @@ h1 {
     font-size: 50px;
     color: #5454D4;
 }
+
+.name-span {
+    font-weight: 600;
+}
+
+.people {
+    display: flex;
+}
+
+.people img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.favourite {
+    width: 96px;
+    height: 16px;
+}
+
+.s4-list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s4-item {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 350px;
+}
+
+.section-4 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #cec8c8;
+}
+
+.section-5 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px #D8D8D8;
+}
+
+.author {
+    width: 270px;
+    height: 270px;
+}
+
+.name-author {
+    font-weight: bold;
+}
+
+.author-info {
+    line-height: 30px;
+    width: 55%;
+}
+
+.author-info p {
+    margin: 20px 0;
+}
+
+.author-text {
+    color: #696871;
+}
+
+.content-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
